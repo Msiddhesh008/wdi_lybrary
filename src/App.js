@@ -4,7 +4,7 @@ import LineChart from "./Components/Charts/LineChart/LineChart";
 import Dependecies from "./Components/Dependecies";
 import Login from "./Components/AuthenticationAuthorization/Login";
 import ComponentTitle from "./Components/ComponentTitle";
-import DateFormatter from "./Components/Convertor/DateFormatter";
+import DateFormatter from "./Components/Convertor/DateFormatting";
 import { useState } from "react";
 
 function App() {
