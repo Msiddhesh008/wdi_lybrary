@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wdi_lybrary/static/css/main.3a099991.css",
+    "main.js": "/wdi_lybrary/static/js/main.5ec217fc.js",
+    "index.html": "/wdi_lybrary/index.html",
+    "main.3a099991.css.map": "/wdi_lybrary/static/css/main.3a099991.css.map",
+    "main.5ec217fc.js.map": "/wdi_lybrary/static/js/main.5ec217fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a099991.css",
+    "static/js/main.5ec217fc.js"
+  ]
+}
