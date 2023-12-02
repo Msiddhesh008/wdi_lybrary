@@ -27,7 +27,7 @@ function App() {
             className="text-black text-center bg-white p-3 h-100 w-100"
             style={{ fontSize: "30px", color: "#E8155D" }}
           >
-            Please test your component section below
+            Preview your component section below
           </span>
         </div>
       </div>
