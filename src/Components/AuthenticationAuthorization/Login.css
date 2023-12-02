@@ -1,0 +1,82 @@
+.login{
+    /* width: 100vw; */
+    height: 100vh;
+
+}
+
+.login h1{
+    color: #4CCD8D;
+}
+.login h1 span{
+    color: #479AE8;
+}
+
+.col-right{
+    border-radius: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* background-color: #479AE8; */
+    background-color: #FFFFFF;
+
+}
+
+  
+.button-contained{
+    width: 100% !important;
+    background-color: #4CCD8D !important;
+    
+    border: 1px solid #4CCD8D !important;
+    color: #FFFFFF !important;
+    text-transform: none !important;
+  
+  
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12) !important;
+  }
+  .button-outlined{
+    width: 100% !important;
+    border: 1px solid #4CCD8D !important;
+    color: #4CCD8D !important;
+    text-transform: none !important;
+  }
+
+
+  
+.pointer{
+    cursor: pointer !important;
+  }
+  .cad-text-small{ 
+    font-size: 13px !important;
+  }
+  .cad-text-medium{
+    font-size: 15px !important;
+  }
+   
+  .cad-text-large{
+    font-size: 18px !important;
+  }
+  
+  .cad-fw-100{
+    font-weight: 100 !important;
+  }
+  
+  .cad-fw-400{
+    font-weight: 400 !important;
+  }
+  
+  .cad-fw-500{
+    font-weight: 500 !important;
+  }
+  
+  
+  .cad-fw-600{
+    font-weight: 600 !important;
+  }
+  
+  .cad-fw-700{
+    font-weight: 700 !important;
+  }
+  
+  .cad-fw-800{
+    font-weight: 800 !important;
+  }
+  
+  
