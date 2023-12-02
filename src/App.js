@@ -2,9 +2,8 @@ import "./index.css";
 import Doughnut from "./Components/Charts/DoughnutChart/Doughnut";
 import LineChart from "./Components/Charts/LineChart/LineChart";
 import Dependecies from "./Components/Dependecies";
-import Login from "./Components/Login/Login";
+import Login from "./Components/AuthenticationAuthorization/Login";
 import ComponentTitle from "./Components/ComponentTitle";
-import DateFormatting from "./Components/Convertor/DateFormatter";
 import DateFormatter from "./Components/Convertor/DateFormatter";
 import { useState } from "react";
 
