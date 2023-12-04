@@ -28,6 +28,7 @@ const EmailField = ({setForgotPasswordEmailId, setAuthorized}) => {
       alert("Unauthorized user")
       setAuthorized(false);
       setForgotPassword(false);
+    }
     console.log(value);
     resetEmail()
   };
