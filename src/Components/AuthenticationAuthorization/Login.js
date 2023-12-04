@@ -91,6 +91,7 @@ const Login = () => {
     console.log(authorized, forgotPassword);
     logScreen = logScreen = (
       <EmailField
+      setForgotPassword={setForgotPassword}
         setAuthorized={setAuthorized}
         setForgotPasswordEmailId={setForgotPasswordEmailId}
       />

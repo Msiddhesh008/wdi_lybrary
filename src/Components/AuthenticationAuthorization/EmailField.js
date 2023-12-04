@@ -5,7 +5,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { Button, CircularProgress } from "@mui/material";
 import { ReportGmailerrorred } from "@mui/icons-material";
 
-const EmailField = ({setForgotPasswordEmailId, setAuthorized}) => {
+const EmailField = ({setForgotPasswordEmailId, setAuthorized, setForgotPassword}) => {
     const [isLoading, setIsLoading] = useState(false);
   const emailSchema = Yup.object().shape({
     email_address: Yup.string()
