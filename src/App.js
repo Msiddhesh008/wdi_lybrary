@@ -6,19 +6,20 @@ import Login from "./Components/AuthenticationAuthorization/Login";
 import ComponentTitle from "./Components/ComponentTitle";
 import DateFormatter from "./Components/Convertor/DateFormatting";
 import { useState } from "react";
+import Chat from "./Components/Chats/Chat";
 
 function App() {
   const [date, setDate] = useState("2023-12-02T16:06:56.704Z");
   return (
     <div className="App ">
-      <div className="wdi-banner w-100 h-100 bg-black">
-        <div className="w-100 h-50 d-flex justify-content-evenly p-5 bg-black align-items-end">
+      <div className="wdi-banner w-100 h-100">
+        <div className="w-100 h-25 d-flex justify-content-evenly p-2 pt-4 bg-black align-items-end">
           <span style={{ fontSize: "50px" }} className="text-white fw-100">
             Welcome to WDI React Lybrary
           </span>
           <img
             src="https://www.wdipl.com/public/img/wdi_logo.svg"
-            width={250}
+            width={200}
             alt="logo"
           />
         </div>
@@ -45,6 +46,24 @@ function App() {
         </div>
 
         <Login />
+      </section>
+
+
+      <section className="test_compnent  d-flex flex-column justify-content-evenly align-items-center h-100 w-100">
+        <img
+          src="https://www.wdipl.com/public/img/black_logo.svg"
+          className="bg-logo"
+          width={80}
+          alt=""
+        />
+        <div className="w-100 bg-black ps-4 pt-2 pb-2">
+          <ComponentTitle title="Chat Module" />
+          <Dependecies dependeciesCmd=" yarn add " />
+        </div>
+        <div className="d-flex flex-column align-items-center h-100  w-100 p-5 gap-4 fs-4 justify-content-center">
+
+        <Chat />
+        </div>
       </section>
 
       <section className="test_compnent d-flex flex-column justify-content-evenly align-items-center h-100 w-100">
