@@ -22,7 +22,12 @@ const EmailField = ({setForgotPasswordEmailId, setAuthorized}) => {
 
   const onSubmit = (value) => {
     setForgotPasswordEmailId(value.email_address)
-    value.email_address === "client@gmail.com" ? setAuthorized(true) : alert("Unauthorized user")
+    if (value.email_address === "client@gmail.com") {
+      setAuthorized(true);
+    } else {
+      alert("Unauthorized user")
+      setAuthorized(false);
+      setForgotPassword(false);
     console.log(value);
     resetEmail()
   };
