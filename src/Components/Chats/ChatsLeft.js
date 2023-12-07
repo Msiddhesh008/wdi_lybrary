@@ -117,7 +117,7 @@ const ChatsLeft = ({individualArray, groupArray, setSelectedChatObject, chatActi
         >
           <SearchIcon />
           <input 
-          
+          className="cad-text-medium search-input"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           placeholder="Search..." 
